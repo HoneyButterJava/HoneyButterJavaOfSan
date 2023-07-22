@@ -7,12 +7,14 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class boj_2003 {
-	
+
 	static int N, M;
 	static int[] A;
 
 	static void input() {
 		Scanner scan = new Scanner(System.in);
+
+		StringBuilder sb = new StringBuilder();
 
 		N = scan.nextInt();
 		M = scan.nextInt();
